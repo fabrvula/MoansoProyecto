@@ -52,6 +52,18 @@
     <Compile Include="MantenedorCliente.Designer.cs">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="NotaIngresoAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotaIngresoAlmacen.Designer.cs">
+      <DependentUpon>NotaIngresoAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenCompraImportaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdenCompraImportaciones.Designer.cs">
+      <DependentUpon>OrdenCompraImportaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +103,12 @@
   <ItemGroup>
     <EmbeddedResource Include="MantenedorCliente.resx">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotaIngresoAlmacen.resx">
+      <DependentUpon>NotaIngresoAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdenCompraImportaciones.resx">
+      <DependentUpon>OrdenCompraImportaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorProducto.resx">
       <DependentUpon>MantenedorProducto.cs</DependentUpon>

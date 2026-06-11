@@ -202,5 +202,17 @@ namespace CapaPresentacion
             MantenedorProforma frmProforma = new MantenedorProforma();
             frmProforma.ShowDialog();
         }
+
+        private void OrdenCompra_Click(object sender, EventArgs e)
+        {
+            new OrdenCompraImportaciones().Show();
+            
+        }
+
+        private void NotaIngresoAlmacen_Click(object sender, EventArgs e)
+        {
+            new NotaIngresoAlmacen().Show();
+              
+        }
     }
 }

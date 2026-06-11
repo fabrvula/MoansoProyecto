@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="datCliente.cs" />
+    <Compile Include="datNotaIngresoAlmacen.cs" />
+    <Compile Include="datOrdenCompraImportaciones.cs" />
     <Compile Include="datProducto.cs" />
     <Compile Include="datProforma.cs" />
     <Compile Include="datProveedor.cs" />

@@ -50,6 +50,8 @@
             this.btnProveedores = new System.Windows.Forms.Button();
             this.btnProductos = new System.Windows.Forms.Button();
             this.btnProformas = new System.Windows.Forms.Button();
+            this.OrdenCompra = new System.Windows.Forms.Button();
+            this.NotaIngresoAlmacen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -271,11 +273,33 @@
             this.btnProformas.UseVisualStyleBackColor = true;
             this.btnProformas.Click += new System.EventHandler(this.btnProformas_Click);
             // 
+            // OrdenCompra
+            // 
+            this.OrdenCompra.Location = new System.Drawing.Point(428, 13);
+            this.OrdenCompra.Name = "OrdenCompra";
+            this.OrdenCompra.Size = new System.Drawing.Size(102, 22);
+            this.OrdenCompra.TabIndex = 22;
+            this.OrdenCompra.Text = "Orden de Compra";
+            this.OrdenCompra.UseVisualStyleBackColor = true;
+            this.OrdenCompra.Click += new System.EventHandler(this.OrdenCompra_Click);
+            // 
+            // NotaIngresoAlmacen
+            // 
+            this.NotaIngresoAlmacen.Location = new System.Drawing.Point(541, 12);
+            this.NotaIngresoAlmacen.Name = "NotaIngresoAlmacen";
+            this.NotaIngresoAlmacen.Size = new System.Drawing.Size(192, 23);
+            this.NotaIngresoAlmacen.TabIndex = 23;
+            this.NotaIngresoAlmacen.Text = "Nota Ingreso Almacén";
+            this.NotaIngresoAlmacen.UseVisualStyleBackColor = true;
+            this.NotaIngresoAlmacen.Click += new System.EventHandler(this.NotaIngresoAlmacen_Click);
+            // 
             // MantenedorCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1051, 593);
+            this.Controls.Add(this.NotaIngresoAlmacen);
+            this.Controls.Add(this.OrdenCompra);
             this.Controls.Add(this.btnProformas);
             this.Controls.Add(this.btnProductos);
             this.Controls.Add(this.btnProveedores);
@@ -331,5 +355,7 @@
         private System.Windows.Forms.Button btnProveedores;
         private System.Windows.Forms.Button btnProductos;
         private System.Windows.Forms.Button btnProformas;
+        private System.Windows.Forms.Button OrdenCompra;
+        private System.Windows.Forms.Button NotaIngresoAlmacen;
     }
 }
