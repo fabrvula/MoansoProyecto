@@ -10,3 +10,9 @@ C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoPr
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Edward Núñez\Documents\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Edward Núñez\Documents\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Edward Núñez\Documents\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Edward Núñez\Documents\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Edward Núñez\Documents\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Edward Núñez\Documents\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.pdb

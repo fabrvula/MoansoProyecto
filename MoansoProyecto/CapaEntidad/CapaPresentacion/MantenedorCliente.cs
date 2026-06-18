@@ -214,5 +214,10 @@ namespace CapaPresentacion
             new NotaIngresoAlmacen().Show();
               
         }
+
+        private void TramiteAduanaje_Click(object sender, EventArgs e)
+        {
+            new TramiteAduanaje().Show();
+        }
     }
 }

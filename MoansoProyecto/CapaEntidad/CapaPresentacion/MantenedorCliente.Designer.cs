@@ -52,6 +52,7 @@
             this.btnProformas = new System.Windows.Forms.Button();
             this.OrdenCompra = new System.Windows.Forms.Button();
             this.NotaIngresoAlmacen = new System.Windows.Forms.Button();
+            this.TramiteAduanaje = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -293,11 +294,22 @@
             this.NotaIngresoAlmacen.UseVisualStyleBackColor = true;
             this.NotaIngresoAlmacen.Click += new System.EventHandler(this.NotaIngresoAlmacen_Click);
             // 
+            // TramiteAduanaje
+            // 
+            this.TramiteAduanaje.Location = new System.Drawing.Point(667, 41);
+            this.TramiteAduanaje.Name = "TramiteAduanaje";
+            this.TramiteAduanaje.Size = new System.Drawing.Size(133, 23);
+            this.TramiteAduanaje.TabIndex = 24;
+            this.TramiteAduanaje.Text = "Tramite Aduanaje";
+            this.TramiteAduanaje.UseVisualStyleBackColor = true;
+            this.TramiteAduanaje.Click += new System.EventHandler(this.TramiteAduanaje_Click);
+            // 
             // MantenedorCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1051, 593);
+            this.Controls.Add(this.TramiteAduanaje);
             this.Controls.Add(this.NotaIngresoAlmacen);
             this.Controls.Add(this.OrdenCompra);
             this.Controls.Add(this.btnProformas);
@@ -357,5 +369,6 @@
         private System.Windows.Forms.Button btnProformas;
         private System.Windows.Forms.Button OrdenCompra;
         private System.Windows.Forms.Button NotaIngresoAlmacen;
+        private System.Windows.Forms.Button TramiteAduanaje;
     }
 }
