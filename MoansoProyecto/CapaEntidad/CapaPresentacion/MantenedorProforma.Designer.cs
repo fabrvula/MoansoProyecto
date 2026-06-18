@@ -49,6 +49,7 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnEliminarDetalle = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProformas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalle)).BeginInit();
             this.SuspendLayout();
@@ -59,6 +60,7 @@
             this.dgvProformas.Location = new System.Drawing.Point(469, 142);
             this.dgvProformas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dgvProformas.Name = "dgvProformas";
+            this.dgvProformas.RowHeadersWidth = 51;
             this.dgvProformas.Size = new System.Drawing.Size(825, 127);
             this.dgvProformas.TabIndex = 0;
             this.dgvProformas.Click += new System.EventHandler(this.dgvProformas_Click);
@@ -66,26 +68,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 31);
+            this.label1.Location = new System.Drawing.Point(34, 62);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
+            this.label1.Size = new System.Drawing.Size(118, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Buscar Cliente:";
             // 
             // txtBuscarCliente
             // 
-            this.txtBuscarCliente.Location = new System.Drawing.Point(134, 31);
+            this.txtBuscarCliente.Location = new System.Drawing.Point(204, 44);
             this.txtBuscarCliente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtBuscarCliente.Name = "txtBuscarCliente";
-            this.txtBuscarCliente.Size = new System.Drawing.Size(280, 20);
+            this.txtBuscarCliente.Size = new System.Drawing.Size(280, 23);
             this.txtBuscarCliente.TabIndex = 2;
             // 
             // btnBuscarCliente
             // 
             this.btnBuscarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarCliente.Image")));
             this.btnBuscarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscarCliente.Location = new System.Drawing.Point(438, 12);
+            this.btnBuscarCliente.Location = new System.Drawing.Point(527, 31);
             this.btnBuscarCliente.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
             this.btnBuscarCliente.Size = new System.Drawing.Size(111, 48);
@@ -102,7 +104,7 @@
             this.lblNombreCliente.Location = new System.Drawing.Point(161, 87);
             this.lblNombreCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombreCliente.Name = "lblNombreCliente";
-            this.lblNombreCliente.Size = new System.Drawing.Size(50, 13);
+            this.lblNombreCliente.Size = new System.Drawing.Size(63, 17);
             this.lblNombreCliente.TabIndex = 4;
             this.lblNombreCliente.Text = "Cliente:";
             // 
@@ -112,7 +114,7 @@
             this.lblCiudad.Location = new System.Drawing.Point(346, 87);
             this.lblCiudad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCiudad.Name = "lblCiudad";
-            this.lblCiudad.Size = new System.Drawing.Size(50, 13);
+            this.lblCiudad.Size = new System.Drawing.Size(63, 17);
             this.lblCiudad.TabIndex = 5;
             this.lblCiudad.Text = "Ciudad:";
             // 
@@ -122,7 +124,7 @@
             this.lblTotal.Location = new System.Drawing.Point(466, 313);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(83, 13);
+            this.lblTotal.Size = new System.Drawing.Size(102, 17);
             this.lblTotal.TabIndex = 6;
             this.lblTotal.Text = "Total: S/0.00";
             // 
@@ -132,7 +134,7 @@
             this.cboProducto.Location = new System.Drawing.Point(106, 142);
             this.cboProducto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cboProducto.Name = "cboProducto";
-            this.cboProducto.Size = new System.Drawing.Size(308, 21);
+            this.cboProducto.Size = new System.Drawing.Size(308, 25);
             this.cboProducto.TabIndex = 7;
             // 
             // txtCantidad
@@ -140,7 +142,7 @@
             this.txtCantidad.Location = new System.Drawing.Point(106, 230);
             this.txtCantidad.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(308, 20);
+            this.txtCantidad.Size = new System.Drawing.Size(308, 23);
             this.txtCantidad.TabIndex = 8;
             // 
             // label3
@@ -149,7 +151,7 @@
             this.label3.Location = new System.Drawing.Point(16, 237);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 13);
+            this.label3.Size = new System.Drawing.Size(77, 17);
             this.label3.TabIndex = 9;
             this.label3.Text = "Cantidad:";
             // 
@@ -174,6 +176,7 @@
             this.dgvDetalle.Location = new System.Drawing.Point(19, 421);
             this.dgvDetalle.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dgvDetalle.Name = "dgvDetalle";
+            this.dgvDetalle.RowHeadersWidth = 51;
             this.dgvDetalle.Size = new System.Drawing.Size(825, 150);
             this.dgvDetalle.TabIndex = 11;
             this.dgvDetalle.Click += new System.EventHandler(this.btnAgregarProducto_Click);
@@ -183,7 +186,7 @@
             this.txtObservaciones.Location = new System.Drawing.Point(103, 301);
             this.txtObservaciones.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtObservaciones.Name = "txtObservaciones";
-            this.txtObservaciones.Size = new System.Drawing.Size(311, 20);
+            this.txtObservaciones.Size = new System.Drawing.Size(311, 23);
             this.txtObservaciones.TabIndex = 12;
             // 
             // label2
@@ -192,7 +195,7 @@
             this.label2.Location = new System.Drawing.Point(16, 303);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.Size = new System.Drawing.Size(104, 17);
             this.label2.TabIndex = 13;
             this.label2.Text = "Observacion:";
             // 
@@ -257,15 +260,25 @@
             this.label5.Location = new System.Drawing.Point(16, 147);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 13);
+            this.label5.Size = new System.Drawing.Size(78, 17);
             this.label5.TabIndex = 20;
             this.label5.Text = "Producto:";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(27, 17);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(198, 21);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Gestión de Proforma";
+            // 
             // MantenedorProforma
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1405, 624);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnEliminarDetalle);
             this.Controls.Add(this.btnSalir);
@@ -320,5 +333,6 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnEliminarDetalle;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
     }
 }
