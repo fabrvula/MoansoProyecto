@@ -40,7 +40,7 @@ namespace CapaPresentacion
             chkEstado.Checked = false;
             dtpFecha.Value = DateTime.Now;
 
-            txtCodigo.Enabled = false;
+            txtCodigo.Enabled = false;       // ← siempre deshabilitado
             txtDescripcion.Enabled = false;
             txtCategoria.Enabled = false;
             txtPrecio.Enabled = false;
@@ -59,7 +59,7 @@ namespace CapaPresentacion
 
         void ModoEdicion()
         {
-            txtCodigo.Enabled = true;
+            
             txtDescripcion.Enabled = true;
             txtCategoria.Enabled = true;
             txtPrecio.Enabled = true;
@@ -93,7 +93,9 @@ namespace CapaPresentacion
             btnAgregar.Visible = true;
             btnModificar.Visible = false;
             dtpFecha.Value = DateTime.Now;
-            txtCodigo.Focus();
+            txtCodigo.Text = logP.GenerarCodigo();   // ← código automático
+            txtCodigo.Enabled = false;                  // ← no se puede editar
+            txtDescripcion.Focus();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -113,20 +115,29 @@ namespace CapaPresentacion
             if (string.IsNullOrWhiteSpace(txtPrecio.Text))
             { MessageBox.Show("El precio es obligatorio."); return; }
 
+            decimal precio;
+            if (!decimal.TryParse(txtPrecio.Text.Trim(),
+                System.Globalization.NumberStyles.Any,
+                 System.Globalization.CultureInfo.InvariantCulture, out precio))
+            { MessageBox.Show("El precio debe ser un número válido. Ejemplo: 25.50"); return; }
+
+            int stock;
+            if (!int.TryParse(txtStock.Text.Trim(), out stock))
+            { MessageBox.Show("El stock debe ser un número entero. Ejemplo: 10"); return; }
+
             var p = new entProducto
             {
-                Codigo = txtCodigo.Text.Trim(),
                 Descripcion = txtDescripcion.Text.Trim(),
                 Categoria = txtCategoria.Text.Trim(),
-                Precio = Convert.ToDecimal(txtPrecio.Text.Trim()),
-                Stock = Convert.ToInt32(txtStock.Text.Trim()),
+                Precio = precio,
+                Stock = stock,
                 Activo = chkEstado.Checked,
                 FechaRegistro = dtpFecha.Value
             };
 
-            if (logP.Registrar(p))
+            if (logP.Registrar(p))  // ← aquí se genera el código dentro de datProducto
             {
-                MessageBox.Show("Producto registrado correctamente.");
+                MessageBox.Show("Producto registrado correctamente con código: " + p.Codigo);
                 CargarGrid();
                 ModoVista();
             }
@@ -137,14 +148,24 @@ namespace CapaPresentacion
             if (string.IsNullOrWhiteSpace(txtDescripcion.Text))
             { MessageBox.Show("La descripción es obligatoria."); return; }
 
+            decimal precio;
+            if (!decimal.TryParse(txtPrecio.Text.Trim(),
+                System.Globalization.NumberStyles.Any,
+                System.Globalization.CultureInfo.InvariantCulture, out precio))
+            { MessageBox.Show("El precio debe ser un número válido. Ejemplo: 25.50"); return; }
+
+            int stock;
+            if (!int.TryParse(txtStock.Text.Trim(), out stock))
+            { MessageBox.Show("El stock debe ser un número entero. Ejemplo: 10"); return; }
+
             var p = new entProducto
             {
                 IdProducto = idSeleccionado,
                 Codigo = txtCodigo.Text.Trim(),
                 Descripcion = txtDescripcion.Text.Trim(),
                 Categoria = txtCategoria.Text.Trim(),
-                Precio = Convert.ToDecimal(txtPrecio.Text.Trim()),
-                Stock = Convert.ToInt32(txtStock.Text.Trim()),
+                Precio = precio,
+                Stock = stock,
                 Activo = chkEstado.Checked,
                 FechaRegistro = dtpFecha.Value
             };

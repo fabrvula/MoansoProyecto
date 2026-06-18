@@ -17,6 +17,11 @@ namespace CapaLogica
             return obj.Listar();
         }
 
+        public string GenerarCodigo()
+        {
+            return obj.GenerarCodigo();
+        }
+
         public bool Registrar(entProducto o)
         {
             return obj.Registrar(o);

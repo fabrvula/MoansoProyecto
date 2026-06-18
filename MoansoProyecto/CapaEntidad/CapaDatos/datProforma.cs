@@ -5,13 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 using CapaEntidad;
 
-
 namespace CapaDatos
 {
     public class datProforma
     {
-        private static List<entProforma> lista = new List<entProforma>();
-        private static int correlativo = 1;
+        private static List<entProforma> lista = new List<entProforma>()
+        {
+            new entProforma
+            {
+                IdProforma = 1,
+                NroProforma = "PRO-0001",
+                NombreCliente = "Cliente Prueba",
+                Ciudad = "Lima",
+                Estado = "Pendiente",
+                Total = 100
+            }
+        };
+
+        private static int correlativo = 2;
 
         public List<entProforma> Listar()
         {
@@ -31,6 +42,7 @@ namespace CapaDatos
         {
             var item = lista.Find(x => x.IdProforma == id);
             if (item == null) return false;
+
             item.Estado = estado;
             return true;
         }
