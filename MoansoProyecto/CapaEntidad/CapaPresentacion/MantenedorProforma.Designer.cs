@@ -272,7 +272,6 @@
             this.label4.Size = new System.Drawing.Size(198, 21);
             this.label4.TabIndex = 21;
             this.label4.Text = "Gestión de Proforma";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // MantenedorProforma
             // 
