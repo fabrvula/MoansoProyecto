@@ -52,6 +52,12 @@
     <Compile Include="MantenedorCliente.Designer.cs">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenedorCobranza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorCobranza.Designer.cs">
+      <DependentUpon>MantenedorCobranza.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
   <ItemGroup>
     <EmbeddedResource Include="MantenedorCliente.resx">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorCobranza.resx">
+      <DependentUpon>MantenedorCobranza.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorProducto.resx">
       <DependentUpon>MantenedorProducto.cs</DependentUpon>

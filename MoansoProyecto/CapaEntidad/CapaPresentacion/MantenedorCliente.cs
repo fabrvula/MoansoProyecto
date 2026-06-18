@@ -209,6 +209,10 @@ namespace CapaPresentacion
             frmVehiculo.ShowDialog();
         }
 
-        
+        private void btnCobranza_Click(object sender, EventArgs e)
+        {
+            MantendorCobranza frmCobranza = new MantendorCobranza();
+            frmCobranza.ShowDialog();
+        }
     }
 }

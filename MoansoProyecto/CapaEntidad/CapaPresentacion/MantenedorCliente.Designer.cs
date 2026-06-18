@@ -54,6 +54,7 @@
             this.btnVehiculos = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCobranza = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -349,11 +350,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del cliente";
             // 
+            // btnCobranza
+            // 
+            this.btnCobranza.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCobranza.Image = ((System.Drawing.Image)(resources.GetObject("btnCobranza.Image")));
+            this.btnCobranza.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCobranza.Location = new System.Drawing.Point(283, 95);
+            this.btnCobranza.Name = "btnCobranza";
+            this.btnCobranza.Size = new System.Drawing.Size(114, 55);
+            this.btnCobranza.TabIndex = 25;
+            this.btnCobranza.Text = "Cobranza";
+            this.btnCobranza.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCobranza.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCobranza.UseVisualStyleBackColor = true;
+            this.btnCobranza.Click += new System.EventHandler(this.btnCobranza_Click);
+            // 
             // MantenedorCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1051, 593);
+            this.Controls.Add(this.btnCobranza);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnVehiculos);
             this.Controls.Add(this.btnProformas);
@@ -415,5 +432,6 @@
         private System.Windows.Forms.Button btnVehiculos;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnCobranza;
     }
 }

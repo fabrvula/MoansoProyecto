@@ -18,3 +18,24 @@ C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\Cap
 C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorProducto.resources
 C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorProforma.resources
 C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorVehiculo.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaLogica.dll
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaLogica.pdb
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorCliente.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantendorCobranza.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorProducto.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorProforma.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorProveedor.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.MantenedorVehiculo.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

@@ -4,3 +4,9 @@ C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEnti
 C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Admin\Desktop\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Cristopher Montoya\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaEntidad\obj\Debug\CapaEntidad.pdb
