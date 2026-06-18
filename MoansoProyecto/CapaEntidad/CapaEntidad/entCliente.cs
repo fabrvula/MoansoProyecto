@@ -15,5 +15,7 @@ namespace CapaEntidad
         public string Ciudad { get; set; }
         public bool Activo { get; set; }
         public System.DateTime FechaRegistro { get; set; }
+
+        // cambio temporal
     }
 }
