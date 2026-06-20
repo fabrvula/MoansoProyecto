@@ -16,3 +16,12 @@ C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoPr
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaDatos\obj\Debug\CapaDatos.pdb

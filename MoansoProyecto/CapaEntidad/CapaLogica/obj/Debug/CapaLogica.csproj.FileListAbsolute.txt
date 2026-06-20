@@ -20,3 +20,14 @@ C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoPr
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.csproj.Up2Date
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\COREI5 8VA\Documents\UPN\MOANSO\ProyectoSistema\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.csproj.Up2Date
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\germa\source\repos\MoansoProyecto\MoansoProyecto\CapaEntidad\CapaLogica\obj\Debug\CapaLogica.pdb
