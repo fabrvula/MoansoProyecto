@@ -203,16 +203,16 @@ namespace CapaPresentacion
             frmProforma.ShowDialog();
         }
 
-        private void OrdenCompra_Click(object sender, EventArgs e)
+        private void btnVehiculos_Click(object sender, EventArgs e)
         {
-            new OrdenCompraImportaciones().Show();
-            
+            MantenedorVehiculo frmVehiculo = new MantenedorVehiculo();
+            frmVehiculo.ShowDialog();
         }
 
-        private void NotaIngresoAlmacen_Click(object sender, EventArgs e)
+        private void btnCobranza_Click(object sender, EventArgs e)
         {
-            new NotaIngresoAlmacen().Show();
-              
+            MantendorCobranza frmCobranza = new MantendorCobranza();
+            frmCobranza.ShowDialog();
         }
     }
 }

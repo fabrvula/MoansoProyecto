@@ -42,11 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="datCliente.cs" />
-    <Compile Include="datNotaIngresoAlmacen.cs" />
-    <Compile Include="datOrdenCompraImportaciones.cs" />
     <Compile Include="datProducto.cs" />
     <Compile Include="datProforma.cs" />
     <Compile Include="datProveedor.cs" />
+    <Compile Include="datVehiculo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
